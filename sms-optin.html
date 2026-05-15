@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boxy — SMS Opt-In Process</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 680px; margin: 40px auto; padding: 0 20px; color: #222; line-height: 1.7; }
+    h1 { font-size: 1.4em; border-bottom: 1px solid #ccc; padding-bottom: 8px; }
+    h2 { font-size: 1.1em; margin-top: 2em; }
+    .message-box { background: #f5f5f5; border-left: 3px solid #888; padding: 10px 16px; margin: 1em 0; font-family: monospace; font-size: 0.95em; }
+    a { color: #222; }
+    footer { margin-top: 3em; font-size: 0.85em; color: #666; border-top: 1px solid #eee; padding-top: 1em; }
+  </style>
+</head>
+<body>
+  <h1>Boxy — SMS Opt-In Process</h1>
+  <p><em>Last updated: May 15, 2026</em></p>
+
+  <p>This page documents how Rubin Johnson, the sole operator and recipient of the Boxy system, opted in to receive SMS messages from the Boxy toll-free number (+1-855-410-4957).</p>
+
+  <h2>How Opt-In Occurred</h2>
+  <p>Rubin Johnson configured the Boxy system by entering their personal mobile phone number in the <code>LIGHTPHONE_NUMBER</code> environment variable on the Boxy server. After adding the number, Rubin Johnson texted the keyword <strong>START</strong> from their personal phone to the Boxy toll-free number (+1-855-410-4957) to confirm consent to receive messages.</p>
+
+  <p>No third parties are enrolled in this program. This is a closed, single-recipient system operated by and for Rubin Johnson.</p>
+
+  <h2>Opt-In Confirmation Message</h2>
+  <p>Upon texting START, the Boxy system sent the following confirmation message:</p>
+  <div class="message-box">
+    Boxy: You're subscribed. Msg&amp;data rates may apply. ~10 msgs/day. Reply HELP for help, STOP to cancel.
+  </div>
+
+  <h2>How to Opt Out</h2>
+  <p>Text <strong>STOP</strong> to +1-855-410-4957 at any time. After sending STOP, one final confirmation message will be sent and no further messages will be delivered. To re-enroll, text <strong>START</strong>.</p>
+
+  <h2>Help</h2>
+  <p>Text <strong>HELP</strong> to +1-855-410-4957 for support information. You may also contact: <a href="mailto:rubin.lewis.johnson@gmail.com">rubin.lewis.johnson@gmail.com</a></p>
+
+  <h2>Message Frequency and Rates</h2>
+  <p>Approximately 10 messages per day. Message and data rates may apply.</p>
+
+  <footer>
+    <p>Boxy is operated by Rubin Johnson. &middot; <a href="index.html">Home</a> &middot; <a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Mobile Terms of Service</a></p>
+  </footer>
+</body>
+</html>
